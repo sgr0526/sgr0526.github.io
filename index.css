@@ -21,13 +21,10 @@ p {
 }
 
 a {
-    color: #007BFF;                  /* Color del enlace */
+    color: #FFFFFF;                  /* Color del enlace */
     text-decoration: none;           /* Elimina subrayado */
 }
 
-a:hover {
-    text-decoration: underline;      /* Subraya el enlace al pasar el ratón */
-}
 
 .container {
     max-width: 1200px;                /* Ancho máximo */
@@ -37,7 +34,7 @@ a:hover {
 
 button {
     background-color: #007BFF;       /* Color de fondo del botón */
-    color: white;                     /* Color del texto del botón */
+    color: black;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
     cursor: pointer;                 /* Cambia el cursor al pasar el ratón */
