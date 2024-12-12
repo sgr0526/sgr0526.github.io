@@ -1,8 +1,49 @@
-body{
-  padding: 25px;
+/* Estilos básicos para la página */
+
+body {
+    font-family: Arial, sans-serif;  /* Fuente para todo el texto */
+    background-color: #f4f4f4;      /* Color de fondo */
+    margin: 0;                       /* Elimina márgenes por defecto */
+    padding: 0;                      /* Elimina relleno por defecto */
 }
-.title {
-	color: #FF0000;
+
+h1 {
+    color: #333;                     /* Color del texto del título */
+    text-align: center;              /* Centra el texto */
+    margin-top: 50px;                 /* Espacio superior */
 }
-.body {
-	color: #FF0000;;
+
+p {
+    color: #666;                     /* Color del texto para párrafos */
+    line-height: 1.6;                 /* Altura de línea */
+    font-size: 16px;                  /* Tamaño de fuente */
+    margin: 20px;                     /* Espacio alrededor del párrafo */
+}
+
+a {
+    color: #007BFF;                  /* Color del enlace */
+    text-decoration: none;           /* Elimina subrayado */
+}
+
+a:hover {
+    text-decoration: underline;      /* Subraya el enlace al pasar el ratón */
+}
+
+.container {
+    max-width: 1200px;                /* Ancho máximo */
+    margin: 0 auto;                   /* Centra el contenedor */
+    padding: 20px;                    /* Relleno dentro del contenedor */
+}
+
+button {
+    background-color: #007BFF;       /* Color de fondo del botón */
+    color: white;                     /* Color del texto del botón */
+    border: none;                     /* Elimina bordes */
+    padding: 10px 20px;               /* Relleno del botón */
+    cursor: pointer;                 /* Cambia el cursor al pasar el ratón */
+}
+
+button:hover {
+    background-color: #0056b3;       /* Color de fondo del botón al pasar el ratón */
+}
+
