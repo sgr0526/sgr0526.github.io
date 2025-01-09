@@ -32,7 +32,3 @@ button {
     cursor: pointer;                 /* Cambia el cursor al pasar el ratón */
 }
 
-button:hover {
-    background-color: ;       /* Color de fondo del botón al pasar el ratón */
-}
-
