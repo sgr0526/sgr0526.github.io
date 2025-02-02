@@ -8,66 +8,58 @@
   <body>
   <h1 class="title">PROTOCOLE DNS</h1></br></br>
   <p><span style="font-weight: bold">Un serveur DNS (Domain Name System) propose un service de traduction d'adresse symbolique (nom de domaine comme fr.wikipedia.org en adresse IP. Il est en quelque sorte le répertoire / annuaire d’Internet.</span></p></br>
-<div style="overflow: hidden;">
-    <img src="https://i.postimg.cc/QNWMhQLY/Capture-d-e-cran-2025-02-01-a-5-53-35-PM.png" style="float: right; margin-left: 20px; margin-right: 20px; width: 800px;">
- <img src="https://i.postimg.cc/RF2VwFtT/Capture-d-e-cran-2025-02-01-a-5-53-18-PM.png" style="width: 800px;">
-  </div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <img src="imagen1.jpg" alt="Imagen 1" style="width: 100%;">
+    <img src="imagen2.jpg" alt="Imagen 2" style="width: 100%;">
+</div>
    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <iframe width="1120" height="630" src="https://www.youtube.com/embed/ubh1T99cuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <p><span style="color: red;font-weight: bold">Tableur: démonstration d'un fonctionnement sur Terminal (MAcOS):</span></p>
     <iframe width="100%" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTTkYczkI81HrzwyCMHh7BvwGLaMB1yl7Q1KX6tHrE414_1QscYz8O8InDTaJsVUWzYQIF6xCJ6qKNp/pubhtml?gid=1823254382&single=true" frameborder="0"></iframe>
     <p><span style="color: red;font-weight: bold">Ce tableur contient des informations sur les enregistrements DNS de google.com. Voici les éléments analysés et ce que cela signifie pour chaque ligne :</span></p>
-  <style>
-    p {
-      float: left;
-      width: 30%; /* Vous pouvez ajuster cette valeur pour chaque paragraphe */
-      background-color: #f0f0f0;
-      margin: 10px;
-      padding: 10px;
-    }
-  </style>
+ 
 <body>
 
-  <p><span style="color: red;"><span style="font-weight: bold">1. Enregistrement A (Adresse IPv4)</span>
-Domaine : google.com
-Type d'enregistrement : A
-Valeur : L'adresse IPv4 associée à google.com est 142.250.218.110.
-TTL (Time to Live) : 34 secondes. Cela signifie que les informations seront mises en cache pendant 34 secondes avant qu'une nouvelle requête ne soit effectuée.
-Serveur DNS : 200.21.200.10 est le serveur DNS ayant répondu à la requête.
-<span style="font-weight: bold">Objectif d'analyse : Identifier l'adresse IP IPv4 du domaine pour accéder à ses ressources.</span></span>
+  <p><span style="color: red;"><span style="font-weight: bold">1. Enregistrement A (Adresse IPv4)</span></br>
+Domaine : google.com</br>
+Type d'enregistrement : A</br>
+Valeur : L'adresse IPv4 associée à google.com est 142.250.218.110.</br>
+TTL (Time to Live) : 34 secondes. Cela signifie que les informations seront mises en cache pendant 34 secondes avant qu'une nouvelle requête ne soit effectuée.</br>
+Serveur DNS : 200.21.200.10 est le serveur DNS ayant répondu à la requête.</br>
+<span style="font-weight: bold">Objectif d'analyse : Identifier l'adresse IP IPv4 du domaine pour accéder à ses ressources.</span></span></br></br>
 
 </p>
-  <p><span style="color: red;"><span style="font-weight: bold">2. Enregistrement AAAA (Adresse IPv6)</span>
-Domaine : google.com
-Type d'enregistrement : AAAA
-Valeur : L'adresse IPv6 associée à google.com est 2800:3f0:4005:40e::200e.
-TTL : 174 secondes.
-Serveur DNS : 200.21.200.10.
-<span style="font-weight: bold">Objectif d'analyse : Identifier l'adresse IPv6 de google.com, ce qui est utile pour les utilisateurs et systèmes utilisant IPv6.</span></span>
+  <p><span style="color: red;"><span style="font-weight: bold">2. Enregistrement AAAA (Adresse IPv6)</span></br>
+Domaine : google.com</br>
+Type d'enregistrement : AAAA</br>
+Valeur : L'adresse IPv6 associée à google.com est 2800:3f0:4005:40e::200e.</br>
+TTL : 174 secondes.</br>
+Serveur DNS : 200.21.200.10.</br>
+<span style="font-weight: bold">Objectif d'analyse : Identifier l'adresse IPv6 de google.com, ce qui est utile pour les utilisateurs et systèmes utilisant IPv6.</span></span></br></br>
 </p>
-  <p><span style="color: red;"><span style="font-weight: bold">3. Enregistrement MX (Mail Exchange)</span>
-Domaine : google.com
-Type d'enregistrement : MX
-Valeur : L'enregistrement MX indique que le serveur de messagerie principal est smtp.google.com, avec une priorité de 10.
-TTL : 15 secondes.
-Serveur DNS : 200.21.200.10.
-<span style="font-weight: bold">Objectif d'analyse : Identifier les serveurs utilisés pour le mailing (envoi et réception de courriels).</p></span></span>
-  <p><span style="color: red;"><span style="font-weight: bold">4. Enregistrement TXT (Texte)</span>
-Domaine : google.com
-Type d'enregistrement : TXT
-Valeur : Exemple de texte : "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e". Cela peut contenir des informations de vérification ou des configurations pour des services tiers comme Docusign.
-TTL : 3600 secondes (1 heure).
-Serveur DNS : 200.21.200.10.
-<span style="font-weight: bold">Objectif d'analyse : Analyser les enregistrements de texte utilisés pour la vérification de domaine, la configuration SPF, DKIM, etc., ou pour des services tiers (Docusign, Google Site Verification, etc.).</span></span>
+  <p><span style="color: red;"><span style="font-weight: bold">3. Enregistrement MX (Mail Exchange)</span></br>
+Domaine : google.com</br>
+Type d'enregistrement : MX</br>
+Valeur : L'enregistrement MX indique que le serveur de messagerie principal est smtp.google.com, avec une priorité de 10.</br>
+TTL : 15 secondes.</br>
+Serveur DNS : 200.21.200.10.</br>
+<span style="font-weight: bold">Objectif d'analyse : Identifier les serveurs utilisés pour le mailing (envoi et réception de courriels).</p></span></span></br></br>
+  <p><span style="color: red;"><span style="font-weight: bold">4. Enregistrement TXT (Texte)</span></br>
+Domaine : google.com</br>
+Type d'enregistrement : TXT</br>
+Valeur : Exemple de texte : "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e". Cela peut contenir des informations de vérification ou des configurations pour des services tiers comme Docusign.</br>
+TTL : 3600 secondes (1 heure).</br>
+Serveur DNS : 200.21.200.10.</br>
+<span style="font-weight: bold">Objectif d'analyse : Analyser les enregistrements de texte utilisés pour la vérification de domaine, la configuration SPF, DKIM, etc., ou pour des services tiers (Docusign, Google Site Verification, etc.).</span></span></br></br>
 
 </p>
-  <p><span style="color: red;"><span style="font-weight: bold">5. Enregistrement NS (Serveur de noms)</span>
-Domaine : google.com
-Type d'enregistrement : NS
-Valeur : Les serveurs de noms (NS) sont ns1.google.com, ns2.google.com, ns3.google.com, et ns4.google.com. Ces serveurs gèrent les demandes DNS pour google.com.
-TTL : 229803 secondes (~2 jours et 12 heures).
-Serveur DNS : 200.21.200.11.
+  <p><span style="color: red;"><span style="font-weight: bold">5. Enregistrement NS (Serveur de noms)</span></br>
+Domaine : google.com</br>
+Type d'enregistrement : NS</br>
+Valeur : Les serveurs de noms (NS) sont ns1.google.com, ns2.google.com, ns3.google.com, et ns4.google.com. Ces serveurs gèrent les demandes DNS pour google.com.</br>
+TTL : 229803 secondes (~2 jours et 12 heures).</br>
+Serveur DNS : 200.21.200.11.</br>
 <span style="font-weight: bold">Objectif d'analyse : Identifier les serveurs DNS autoritaires qui gèrent les requêtes DNS pour ce domaine. Ils sont responsables de la gestion de la zone DNS de google.com.</span></span>
 </p>
 
