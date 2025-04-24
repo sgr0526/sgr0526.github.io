@@ -1,6 +1,6 @@
 body {
     font-family: "Times New Roman", Times, serif;  /* Fuente para todo el texto */
-    background-color: #bae3ff;      /* Color de fondo */
+    background-color: #d3feb5;      /* Color de fondo */
 }
 
 h1 {
@@ -23,7 +23,7 @@ a {
 
 
 button {
-    background-color: #0033f4;       /* Color de fondo del botón */
+    background-color: #2b6901;       /* Color de fondo del botón */
     color: #ffffff;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
