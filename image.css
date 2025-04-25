@@ -28,4 +28,4 @@ button {
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
     cursor: pointer; 
-    border-radius: 16px;
+    border-radius: 8px;
