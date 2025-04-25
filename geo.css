@@ -33,7 +33,5 @@ button {
 }
 
 button:hover {
-    background-color: #FFFFFF; /* Change la couleur de fond au survol */
-  	color: #2b6901;
-    transition: background-color 0.5s;
+    background-color: red; /* Change la couleur de fond au survol */
 }
