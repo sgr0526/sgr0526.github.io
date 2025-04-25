@@ -33,6 +33,6 @@ button {
 }
 
 button:hover {
-    background-color: red; /* Cambia el color de fondo al pasar el ratón */
+    background-color: #FFFFFF; /* Cambia el color de fondo al pasar el ratón */
     color: #2b6901; /* Cambia el color del texto al pasar el ratón */
 }
