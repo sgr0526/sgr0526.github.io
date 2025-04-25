@@ -30,6 +30,7 @@ button {
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
     cursor: pointer;                 /* Cambia el cursor al pasar el ratón */
+    border-radius: 8px;
     transition: background-color 0.5s;
 }
 
