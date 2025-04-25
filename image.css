@@ -27,5 +27,5 @@ button {
     color: #ffffff;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
-    cursor: pointer;                 /* Cambia el cursor al pasar el ratón */
-}
+    cursor: pointer; 
+    border-radius: 16px;
