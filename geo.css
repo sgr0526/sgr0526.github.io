@@ -22,7 +22,7 @@ a {
 }
 
 
-button {
+.button {
     background-color: #2b6901;       /* Color de fondo del botón */
     color: #ffffff;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
