@@ -32,6 +32,5 @@ button {
 }
 
 button:hover {
-    background-color: #FFFFFF; /* Cambia el color de fondo al pasar el ratón */
-    color: #2b6901; /* Cambia el color del texto al pasar el ratón */
+    background-color: #193e00; /* Cambia el color de fondo al pasar el ratón */
 }
