@@ -2,11 +2,11 @@
 
 body {
     font-family: "Times New Roman", Times, serif;  /* Fuente para todo el texto */
-    background-color: #fad2b2;      /* Color de fondo */
+    background-color: #ffc9c9;      /* Color de fondo */
 }
 
 h1 {
-    color: #333;                     /* Color del texto del título */
+    color: #000000;                     /* Color del texto del título */
     text-align: center;              /* Centra el texto */
     margin-top: 50px;                 /* Espacio superior */
 }
@@ -19,13 +19,13 @@ p {
 }
 
 a {
-    color: #3362c8;                  /* Color del enlace */
+    color: #FFFFFF;                  /* Color del enlace */
     text-decoration: none;           /* Elimina subrayado */
 }
 
 
 button {
-    background-color: #ffdeaf;       /* Color de fondo del botón */
+    background-color: #c70039;       /* Color de fondo del botón */
     color: #FFFFFF;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
