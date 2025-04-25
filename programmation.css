@@ -19,13 +19,13 @@ p {
 }
 
 a {
-    color: #ff0000;                  /* Color del enlace */
+    color: #FFFFFF;                  /* Color del enlace */
     text-decoration: none;           /* Elimina subrayado */
 }
 
 
 button {
-    background-color: #ffffd4;       /* Color de fondo del botón */
+    background-color: #FFC300;       /* Color de fondo del botón */
     color: #ff0000;                     /* Color del texto del botón */
     border: none;                     /* Elimina bordes */
     padding: 10px 20px;               /* Relleno del botón */
