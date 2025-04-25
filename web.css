@@ -19,7 +19,7 @@ p {
 }
 
 a {
-    color: #ff0000;                  /* Color del enlace */
+    color: #000000;                  /* Color del enlace */
     text-decoration: none;           /* Elimina subrayado */
 }
 
